@@ -1,1 +1,1 @@
-# json-analyzer
+# json-query
