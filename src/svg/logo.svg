@@ -17,11 +17,23 @@
    id="svg8"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
    sodipodi:docname="logo.svg"
-   inkscape:export-filename="D:\Projects\json-query\src\icon\icon_256.png"
-   inkscape:export-xdpi="96"
-   inkscape:export-ydpi="96">
+   inkscape:export-filename="D:\Projects\json-query\src\icons\icon_128.png"
+   inkscape:export-xdpi="48.000004"
+   inkscape:export-ydpi="48.000004">
   <defs
      id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient874">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop870" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop872" />
+    </linearGradient>
     <linearGradient
        inkscape:collect="always"
        id="linearGradient4980">
@@ -66,6 +78,15 @@
        y2="256.07779"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(0.70421567,0,-1.3823121e-8,0.8684799,-107.6099,-10.364315)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient874"
+       id="linearGradient876"
+       x1="30.298527"
+       y1="262.25513"
+       x2="48.991249"
+       y2="278.55569"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -75,14 +96,14 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.5"
-     inkscape:cx="40.190691"
-     inkscape:cy="141.8412"
+     inkscape:cx="129.86558"
+     inkscape:cy="218.92737"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      units="px"
-     inkscape:window-width="1366"
-     inkscape:window-height="705"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1" />
@@ -94,7 +115,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -104,42 +125,45 @@
      id="layer1"
      transform="translate(0,-229.26667)">
     <path
-       style="fill:none;stroke:#d40000;stroke-width:5.29166648;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;stroke:#00112b;stroke-width:6.61458302;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 61.42673,291.21649 44.409639,274.07319"
+       id="path4572-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="D:\Projects\json-query\src\icons\icon_128.png"
+       inkscape:export-xdpi="137.52817"
+       inkscape:export-ydpi="137.52817" />
+    <path
+       style="fill:none;stroke:url(#linearGradient876);stroke-width:5.29166648;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 48.991249,278.5557 -4.58161,-4.48251"
        id="path4572"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
     <circle
-       style="opacity:1;fill:#f9f9f9;fill-opacity:1;fill-rule:nonzero;stroke:#00112b;stroke-width:5.29166651;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#00112b;stroke-width:5.29166651;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path4528"
        cx="27.78125"
        cy="257.3125"
        r="21.817038" />
-    <path
-       style="fill:none;stroke:#00112b;stroke-width:6.61458302;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 61.42673,291.21649 48.991249,278.5557"
-       id="path4572-4"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
     <circle
-       r="20.651182"
+       r="20.298452"
        cy="257.3125"
        cx="27.78125"
        id="circle4938"
-       style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#fffff7;stroke-width:2.90367007;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.19607843" />
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#535d6c;stroke-width:2.5220294;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.19607843" />
     <flowRoot
        xml:space="preserve"
        id="flowRoot4520"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:2.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff6600;fill-opacity:1;stroke:none;stroke-opacity:1;"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:2.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#00aad4;fill-opacity:1;stroke:none;stroke-opacity:1;"
        transform="matrix(0.66668123,0,0,0.66668123,-1.7233008,200.46114)"><flowRegion
          id="flowRegion4522"
-         style="fill:#ff6600;stroke:none;stroke-opacity:1;fill-opacity:1;"><rect
+         style="fill:#00aad4;stroke:none;stroke-opacity:1;fill-opacity:1;"><rect
            id="rect4524"
            width="211"
            height="160"
            x="22"
            y="44"
-           style="fill:#ff6600;stroke:none;stroke-opacity:1;fill-opacity:1;" /></flowRegion><flowPara
+           style="fill:#00aad4;stroke:none;stroke-opacity:1;fill-opacity:1;" /></flowRegion><flowPara
          id="flowPara4526"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Century;-inkscape-font-specification:Century;font-size:38.09916641px;line-height:1.25;fill:#ff6600;stroke:none;stroke-opacity:1;fill-opacity:1;">{?}</flowPara></flowRoot>  </g>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Century;-inkscape-font-specification:Century;font-size:38.09916641px;line-height:1.25;fill:#00aad4;stroke:none;stroke-opacity:1;fill-opacity:1;">{?}</flowPara></flowRoot>  </g>
 </svg>
