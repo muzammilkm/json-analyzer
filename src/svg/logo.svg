@@ -95,9 +95,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.5"
-     inkscape:cx="129.86558"
-     inkscape:cy="218.92737"
+     inkscape:zoom="0.75"
+     inkscape:cx="25.829763"
+     inkscape:cy="229.54782"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -154,16 +154,16 @@
     <flowRoot
        xml:space="preserve"
        id="flowRoot4520"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:2.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#00aad4;fill-opacity:1;stroke:none;stroke-opacity:1;"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:2.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff7f2a;fill-opacity:1;stroke:none;stroke-opacity:1;"
        transform="matrix(0.66668123,0,0,0.66668123,-1.7233008,200.46114)"><flowRegion
          id="flowRegion4522"
-         style="fill:#00aad4;stroke:none;stroke-opacity:1;fill-opacity:1;"><rect
+         style="fill:#ff7f2a;stroke:none;stroke-opacity:1;fill-opacity:1;"><rect
            id="rect4524"
            width="211"
            height="160"
            x="22"
            y="44"
-           style="fill:#00aad4;stroke:none;stroke-opacity:1;fill-opacity:1;" /></flowRegion><flowPara
+           style="fill:#ff7f2a;stroke:none;stroke-opacity:1;fill-opacity:1;" /></flowRegion><flowPara
          id="flowPara4526"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Century;-inkscape-font-specification:Century;font-size:38.09916641px;line-height:1.25;fill:#00aad4;stroke:none;stroke-opacity:1;fill-opacity:1;">{?}</flowPara></flowRoot>  </g>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Century;-inkscape-font-specification:Century;font-size:38.09916641px;line-height:1.25;fill:#ff7f2a;stroke:none;stroke-opacity:1;fill-opacity:1;">{?}</flowPara></flowRoot>  </g>
 </svg>

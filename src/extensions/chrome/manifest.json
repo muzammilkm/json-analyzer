@@ -5,7 +5,7 @@
   "description": "JSON Query and Analyze",
   "version": "1.0",
 
-  "permissions": ["storage", "tabs"],
+  "permissions": ["storage", "tabs", "http://*/*", "https://*/*", "contextMenus", "webNavigation" ],
 
   "browser_action": {
     "default_icon": "content/icon.png"
@@ -14,7 +14,8 @@
     "128": "content/icon_128.png"
   },
   "background": {
-    "scripts": ["background.js"],
-    "persistent": false
-  }
+    "scripts": ["background.js"]
+  },
+  "update_url": "https://clients2.google.com/service/update2/crx",
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
 }

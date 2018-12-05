@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="description" content="JSON Query" />
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-barstyle" content="black-translucent">
@@ -15,7 +16,47 @@
 </head>
 
 <body>
-    <h1>JSON Query and Analyze</h1>
+    <div id="json-query">
+        <div id="json-source-panel" class="panel">
+            <div id="json-source-editor"></div>
+        </div>
+        <div class="gutter gutter-vertical"></div>
+        <div id="json-query-result-panel" class="panel">
+            <div id="json-query-panel">
+                <div class="row">
+                    <div id="query-property" class="col-4">
+                        <select id="txt-query-property" class="form-control">
+                            <option>Select Property</option>
+                        </select>
+                    </div>
+                    <div id="query-option" class="col-4">
+                        <select id="txt-query-optioin" class="form-control">
+                            <option value="contains">Contains</option>
+                            <option value="equals">Equals</option>
+                            <option value="lessThan">Less Than</option>
+                            <option value="lessThanEquals">Less Than or Equals</option>
+                            <option value="greaterThan">Greater Than</option>
+                            <option value="greaterThanEquals">Greater Than or Equals</option>
+                        </select>
+                    </div>
+                    <div id="query-value" class="col-4">
+                        <input type="text" id="txt-query-value" class="form-control" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 text-right">
+                        <button>Clear</button>
+                        <button>Query</button>
+                    </div>
+                </div>
+            </div>
+            <div class="gutter gutter-horizontal"></div>
+            <div id="json-result-panel">
+                <div id="json-result-editor"></div>
+                <div id="json-result-grid"></div>
+            </div>
+        </div>
+    </div>
     <script type="text/javascript" src="js/scripts.js"></script>
 </body>
 

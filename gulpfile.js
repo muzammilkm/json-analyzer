@@ -40,19 +40,26 @@ gulp.task('jsLint', function() {
 
 // task
 gulp.task('build-chrome-ext', function() {
-    var icons = [{
+    var files = [{
                 src: './src/icons/icon_19.png',
-                dest: 'icon.png'
+                dest: 'content/icon.png'
             },
             {
                 src: './src//icons/icon_128.png',
-                dest: 'icon_128.png'
+                dest: 'content/icon_128.png'
+            }, {
+                src: './node_modules/jsoneditor/dist/img/jsoneditor-icons.svg',
+                dest: 'css/img/jsoneditor-icons.svg'
             }
         ],
-        scripts = ['./src/extensions/chrome/js/init.js',
+        scripts = ['./node_modules/jsoneditor/dist/jsoneditor.js',
+            './src/extensions/chrome/js/init.js',
             './src/extensions/chrome/js/views/**/*.js',
             './src/extensions/chrome/js/models/**/*.js',
             './src/extensions/chrome/js/view-model.js'
+        ],
+        styles = ['./node_modules/jsoneditor/dist/jsoneditor.min.css',
+            './src/extensions/chrome/css/**/*.css'
         ];
     gulp
         .src(scripts)
@@ -61,7 +68,7 @@ gulp.task('build-chrome-ext', function() {
         .pipe(gulp.dest('dist/extensions/chrome/js'));
 
     gulp
-        .src('./src/extensions/chrome/css/**/*.css')
+        .src(styles)
         .pipe(concat('styles.css'))
         .pipe(gulpif(config.isMin, minifyCss()))
         .pipe(gulp.dest('dist/extensions/chrome/css'));
@@ -70,10 +77,10 @@ gulp.task('build-chrome-ext', function() {
         .src('./src/extensions/chrome/*.*')
         .pipe(gulp.dest('dist/extensions/chrome'));
 
-    icons.forEach(function(icon) {
+    files.forEach(function(file) {
         gulp
-            .src(icon.src)
-            .pipe(rename(icon.dest))
-            .pipe(gulp.dest('dist/extensions/chrome/content'));
+            .src(file.src)
+            .pipe(rename(file.dest))
+            .pipe(gulp.dest('dist/extensions/chrome'));
     });
 });

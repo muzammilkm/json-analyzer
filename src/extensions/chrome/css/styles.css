@@ -1,0 +1,109 @@
+body,
+html {
+    height: 100vh;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    background: #20262e;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    font-size: 14px;
+    color: #39464e;
+}
+
+#json-query {
+    height: 100%;
+}
+
+.panel {
+    width: calc(50% - 2.5px);
+    height: 100%;
+    float: left;
+}
+
+.gutter.gutter-vertical {
+    width: 5px;
+    height: 100%;
+    float: left;
+    cursor: ew-resize;
+}
+
+.gutter.gutter-horizontal {
+    width: 100%;
+    height: 5px;
+    cursor: ns-resize;
+}
+
+.gutter.gutter-vertical:hover,
+.gutter.gutter-horizontal:hover {
+    background-color: darkorange;
+}
+
+#json-source-editor,
+#json-result-editor {
+    width: 100%;
+    height: 100%;
+}
+
+#json-source-panel {}
+
+#json-query-result-panel {}
+
+#json-query-panel {
+    height: calc(20% - 2.5px);
+    background-color: #3883fa;
+}
+
+#json-result-panel {
+    height: calc(80% - 2.5px);
+}
+
+/* textarea{
+    display: none;
+} */
+.row {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: table;
+    width: 100%;
+}
+
+.row:after,
+.row:before {
+    display: table;
+    content: " ";
+}
+
+.col-12,
+.col-4 {
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-4 {
+    width: 33.33333333%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.form-control {
+    width: 100%;
+}

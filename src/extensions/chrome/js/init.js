@@ -1,7 +1,9 @@
 var jsonQuery = {
-    rawView: undefined,
+    sourceView: undefined,
     queryView: undefined,
     resultView: undefined,
+    resultJSONView: undefined,
+    resultGridView: undefined,
     viewModel: undefined,
     model: undefined
 };

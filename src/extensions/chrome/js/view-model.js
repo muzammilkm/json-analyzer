@@ -1,11 +1,24 @@
-
-(function(jsonQ) {
+(function(app) {
     'use strict';
 
     function ViewModel() {
-        jsonQ.rawView = new jsonQ.rawView();
+        var vm = this;
 
-        jsonQ.rawView.render();
+        vm.init = function() {
+            app.sourceView = new app.sourceView(vm);
+            app.resultJSONView = new app.resultJSONView(vm);
+            app.resultView = new app.resultView(vm);
+
+            app.sourceView.render();
+            app.resultView.render();
+            app.resultJSONView.render();
+        };
+
+        vm.sourceChanged = function(source) {
+            console.log(source);
+        };
+
+        vm.init();
     };
-    jsonQ.viewModel = new ViewModel();
+    app.viewModel = new ViewModel();
 }(jsonQuery));
